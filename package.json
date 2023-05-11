@@ -1,0 +1,23 @@
+{
+  "name": "playlist-murmurio",
+  "version": "1.0.0",
+  "description": "Play List de Gilnece",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Gilnece/playlist-Murmurio.git)"
+  },
+  "author": "Gilnece Menezes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22"
+  }
+}
